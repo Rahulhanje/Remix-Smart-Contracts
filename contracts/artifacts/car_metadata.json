@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "numofDoors",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_brand",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "desc",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/car.sol": "car"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/car.sol": {
+			"keccak256": "0xa99b94868f11ef4407466045903d8b43aa906adef7e8774aa654e92b3e3e6ef2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://447eae23c4402364487a231973547433b9f99978dfeeb4a986ac719f0a02f933",
+				"dweb:/ipfs/QmU3m57jsefX1PBwsFDEsrxWPTxz8YcC8LoB39Si9GYP2j"
+			]
+		},
+		"contracts/vehical.sol": {
+			"keccak256": "0x8f35b2c6da2d955dd14679b5989949264056680a9756e0d05fa482ac3b8c182d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://30101356d75d6d041911d0e787f8c5a4f3e827c1186bbed145f9ed34cb6cd795",
+				"dweb:/ipfs/QmPV9LK7TaR6fg1cJvxj7wu5Uhqg16LrzZVjowPGVEV5E5"
+			]
+		}
+	},
+	"version": 1
+}

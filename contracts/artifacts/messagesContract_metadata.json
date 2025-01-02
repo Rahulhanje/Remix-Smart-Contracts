@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getmessage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/contract2.sol": "messagesContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/contract2.sol": {
+			"keccak256": "0x198b398cd4f5481ee3aace2a5fbc652005fd06c4d91cf52c4e287d693d8d9862",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://915e497899c499cc72940c5a2d1c58676331175c4db1b3631bb60f7eabde364a",
+				"dweb:/ipfs/QmeD1dnHiwkYz9jtUUJcEDy5EuWjioCCkcyo7DV6QFMzoW"
+			]
+		}
+	},
+	"version": 1
+}
